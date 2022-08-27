@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CCL CART</title>
+    <link rel="stylesheet" href="ccl.css" />
+    <link rel="icon" href="img/logo.png" />
+  </head>
+
+  <body>
+    <header>
+      <a href="home.html">
+        <img src="img/logo.png" alt="CCL logo" />
+      </a>
+      <h1>CCL CART</h1>
+    </header>
+    <nav>
+      <a href="home.html">Home</a>&nbsp; <a href="about.html">About</a>&nbsp;
+      <a href="product.html">Products</a>&nbsp; <a href="faq.html">FAQ</a>&nbsp;
+      <a href="cart.html">Cart</a>&nbsp;
+    </nav>
+    <main>
+      <img src="img/cart.png" alt="cart" />
+      <!-- client can buy product(s) by sending this form -->
+      <form method="post">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="Name"
+          placeholder="Your Name"
+          autofocus
+          required
+        /><br />
+        <label for="EmailAddress">Email Address: </label>
+        <input
+          type="email"
+          id="EmailAddress"
+          name="Email Address"
+          placeholder="Your email address"
+          required
+        /><br />
+        <label for="PhoneNumber">Phone Number:</label>
+        <input
+          type="tel"
+          id="PhoneNumber"
+          name="Phone Number"
+          placeholder="012-3456789"
+          pattern="[[0-9]{3}-[0-9]{7}]"
+          required
+        /><br />
+        <label for="Address">Address:</label>
+        <textarea
+          id="Address"
+          name="Address"
+          rows="3"
+          cols="10"
+          placeholder="Your address"
+          required
+        ></textarea
+        ><br />
+        <label for="State">State:</label>
+        <input
+          type="text"
+          id="State"
+          name="State"
+          placeholder="Your state"
+          required
+        /><br />
+        <label for="pt">Product:</label>
+        <input
+          type="text"
+          id="pt"
+          name="Product"
+          placeholder="Product(s) that you want"
+          required
+        /><br />
+        <p>Choose how to pay:</p>
+        <label for="pbt"></label>
+        <input type="radio" name="WayToPay" id="pbt" />PublicBank Transfer<br />
+        <label for="mbt"></label>
+        <input type="radio" name="WayToPay" id="mbt" />Maybank Transfer<br />
+        <label for="dc"></label>
+        <input type="radio" name="WayToPay" id="dc" />Debit Card<br />
+        <label for="cc"></label>
+        <input type="radio" name="WayToPay" id="cc" />Credit Card<br />
+        <label for="boost"></label>
+        <input type="radio" name="WayToPay" id="boost" />Boost<br />
+        <input type="radio" name="WayToPay" id="gp" />GrabPay<br />
+        <label for="tng"></label>
+        <input type="radio" name="WayToPay" id="tng" />Touch'n Go E-wallet
+        <br />
+        <!-- this promocode will recieve from our collaboration company and make sure client sent the correct promocode-->
+        <label for="Promocode">Promocode:</label>
+        <input type="text" id="Promocode" name="Promocode" />
+        <br />
+        <input type="submit" value="Purchase" id="Purchase" />
+      </form>
+    </main>
+    <footer>
+      Copyright &copy; 2022 CCL Company Limited. All rights reserved.
+      <br />
+      <a href="home.html">Home</a>&nbsp; <a href="about.html">About</a>&nbsp;
+      <a href="product.html">Products</a>&nbsp; <a href="faq.html">FAQ</a>&nbsp;
+      <a href="cart.html">Cart</a>&nbsp;<br />
+      <a href="privacy.html">Privacy Policy</a> &nbsp;
+      <a href="term.html">Terms of use</a>&nbsp;
+    </footer>
+  </body>
+</html>

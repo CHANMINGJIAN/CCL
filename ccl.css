@@ -1,0 +1,180 @@
+header {
+  background-color: #acbde2; /*set the background color to light blue*/
+  padding: 1px; /*set the padding to 1 pixel*/
+}
+h1{
+  padding: 10px; /*set the padding to 10 pixels*/
+  font-size: 2em; /*set the font size to 2 em*/
+}
+header img{
+  float: left; /*let the image float left to the text*/
+  height: 100px; /*set the height of the image to 100 pixels*/
+  width: 100px; /*set the width of the image to 100 pixels*/
+}
+nav {
+  font-weight: bold; 
+  font-size: 1.5em;
+  background-color: #eac1c1;
+  position: sticky; /*set the position to sticky to make sure the text do not run away*/
+  top: 0; /*set the top to 0 makesure the text don't run away*/
+  margin: 20px 0 20px 0; /*set the margin top and bottom to 20 pixels,left and right to 0 pixels*/
+  justify-content: space-between; /*set the justify content to space between to make sure items will have space between them*/
+  display: flex; /*set the display to the flex */
+  }
+/*below is the style rules for all a tags that in the nav tags in the html*/
+nav a{
+  text-decoration: none; /*set the text decoration to none*/
+  display: flex; /*set the display to flex*/
+  float: left;
+  list-style-type: none; /*set the style type of the list to none*/
+}
+body{
+  max-width: 1920px; /*set the maximum width of the body to 1920 pixels*/
+  max-height: 1080px; /*set the maximum height of the body to 1080 pixels*/
+  min-width: 800px; /*set the minimum width of the body to 800 pixels*/
+  min-height: 600px; /*set the minimum height of the body to 600 pixels*/
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main {
+  background-color: #cbcbcb; /*set the background to light grey*/
+  width: 100%; /*set the width to 100%*/
+}
+div {
+  background-color: #ffffff; /*set the background color to white*/
+}
+footer {
+  background-color: #acbde2; /*set the background color to light blue*/
+  text-align: center; /*set the text align to centre*/
+  font-style: italic; /*set the style of the text to italic*/
+}
+/*below is the style rules for the about id in the html*/
+#about {
+  text-align: center; /*set the text align to center*/
+}
+/*below is the style rules for the product id in the html*/
+#product {
+  background-color: #b9b9b9; /*set the background to grey*/
+  text-align: center; /*set the text align to center*/
+}
+/*below is the style rules for all the class of the product we have*/
+.modem,
+.router,
+.bridge,
+.gateway,
+.ap,
+.hub,
+.re,
+.switch {
+  border: #4700ba solid 10px; /*set the border color to medium dark shade of blue-magenta，border type to solid and size to 10 pixels*/
+  border-radius: 15px; /*set the border radius to 15 pixels*/
+  padding: 10px; /*set the padding to 10 pixels*/
+}
+/*below is the style rules for all the image of all the modem, router, bridge, ap, hub, re and switch class in the html*/
+.modem img,
+.router img,
+.bridge img,
+.ap img,
+.hub img,
+.re img,
+.switch img {
+  float: right; /*let the image float right to the text*/
+  height: 200px; /*set the height of the images to 200 pixels*/
+}
+/*below is the style rules for all the image of the gateway class in the html*/
+.gateway img {
+  float: right; /*let the image float right to the text*/
+  height: 150px; /*set the height of the images to 150 pixels*/
+  width: 150px; /*set the width of the images to 150 pixels*/
+}
+/*below is the style rules for all the buynow class in the html*/
+.buynow {
+  border: #3a3a3a solid 4px; /*set the border color to dark grey，border type to solid and size to 4 pixels*/
+  background-color: #cfc6c6; /*set the background color to light grey*/
+  color: #d0d0d0; /*set the text color to light grey*/
+}
+/*below is the style rules for all the faq class in the html*/
+.faq {
+  background-color: #ececec; /*set the background color to a very light grey*/
+  border: #000000 solid 4px; /*set the border color to dark，border type to solid and size to 4 pixels*/
+}
+/*below is the style rules for all the table tags in the html*/
+table {
+  text-align: center; /*set the box align to center*/
+  width: 70%; /*set the width of the table to 70%*/
+  border-spacing: 0em; /*set the border spacing to 0 em*/
+  margin-right: auto; /*set the margin right to auto*/
+  margin-left: auto;/*set the margin left to auto*/
+  background-color: #ffffff; /*set the background color to white*/
+}
+/*below is the style rules for all the table, th and tags in the html*/
+table,
+th,
+td {
+  border: 1px solid; /*set the border type to solid and size to 1 pixels*/
+  text-align: left;  /*set the text align to left to let all the text in the table at the left*/
+}
+/*below is the style rules for all the input tags in the html*/
+input {
+  width: 20%; /*set the width of the input box to 20%*/
+  padding: 12px 20px; /*set the padding top and bottom to 12 pixels and padding left and right to 20p pixels */
+  margin: 8px 0; /*set the margin top and bottom to 8 pixels and margin left and right to 0 pixels*/
+  box-sizing: border-box; /*set the box sizing to border box*/
+  border: 2px solid #000000; /*set the border color to dark，border type to solid and size to 2 pixels*/
+  border-radius: 4px; /*set the border radius to 4 pixels*/
+}
+/*below is the style rules for the unvisited link tags in the html*/
+a:link{
+  color: #4704b4;
+}
+/*below is the style rules for the visited link tags in the html*/
+a:visited{
+  color: #3e2c2c;
+}
+/*below is the style rules for the link that hover tags in the html*/
+a:hover{
+  color: #330281;
+}
+/*below is the style rules for the link that active tags in the html*/
+a:active{
+  color: #b9b9b9;
+}
+/*below is the style rules for the id name tag in the form in the html*/
+#name{
+  margin-left: 70px;
+}
+/*below is the style rules for the id EmailAddress tag in the form in the html*/
+#EmailAddress{
+  margin-left: 5px;
+}
+/*below is the style rules for the id Address tag in the form in the html*/
+#Address{
+  margin-left: 52px;
+}
+/*below is the style rules for the id State tag in the form in the html*/
+#State{
+  margin-left: 75px;
+}
+/*below is the style rules for the id pt tag in the form in the html*/
+#pt{
+  margin-left: 53px;
+}
+/*below is the style rules for the id Promocode tag in the form in the html*/
+#Promocode{
+  margin-left: 28px;
+}
+/*below is the style rules for the class an tag in home in the html*/
+.an{
+  border: #4700ba 2px solid;
+}
+/*below is the style rules for the class ad tag in home page in the html*/
+.ad{
+  width: 90%;
+  margin-left: 55px;
+  border: #000000 solid 5px;
+}
+/*below is the style rules for the class productlist tag in the product page in the html*/
+.productlist{
+  padding: 2px 2px 2px 2px;
+  border: #000000 2px solid;
+}
